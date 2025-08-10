@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Essay on Pollution</title>
+  <meta name="description" content="An informative essay about pollution: causes, effects and solutions." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent: #2b8aef;
+      --bg: #f6f9fc;
+      --card: #ffffff;
+      --muted: #6b7280;
+      --max-width: 980px;
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      color-scheme: light;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:#0f172a;line-height:1.6}
+    .container{max-width:var(--max-width);margin:36px auto;padding:20px}
+
+    header{display:flex;gap:16px;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:52px;height:52px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#6dd3b0);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    h1{font-size:1.6rem;margin:0}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+
+    .card{background:var(--card);padding:24px;border-radius:12px;box-shadow:0 6px 18px rgba(12,20,30,0.06);margin-top:18px}
+    nav{display:flex;gap:14px}
+    nav a{color:var(--accent);text-decoration:none;font-weight:600}
+
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;align-items:center}
+    .hero h2{margin:0}
+    .meta{font-size:0.9rem;color:var(--muted)}
+
+    article{margin-top:18px}
+    article h3{margin-top:18px}
+    .two-col{display:grid;grid-template-columns:1fr;gap:18px}
+
+    footer{margin-top:28px;padding-top:18px;border-top:1px solid #e6eef7;color:var(--muted);font-size:0.9rem}
+
+    /* responsive */
+    @media(min-width:760px){
+      .hero{grid-template-columns:1fr 320px}
+      .two-col{grid-template-columns:1fr 320px}
+    }
+
+    /* print-friendly */
+    @media print{
+      body{background:white}
+      .container{margin:0;padding:0}
+      nav, .logo, footer{display:none}
+      .card{box-shadow:none;border-radius:0}
+    }
+
+    /* small utility */
+    .btn{display:inline-block;padding:8px 14px;border-radius:8px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+    .muted{color:var(--muted)}
+    ul{margin:8px 0 8px 20px}
+    .suggestions{background:#f1fbff;padding:12px;border-radius:8px;border:1px solid #e1f0ff}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">P</div>
+        <div>
+          <h1>Essay: Pollution</h1>
+          <p class="lead">A short, well-structured essay about pollution — causes, effects and solutions.</p>
+        </div>
+      </div>
+      <nav aria-label="Main navigation">
+        <a href="#essay">Essay</a>
+        <a href="#causes">Causes</a>
+        <a href="#effects">Effects</a>
+        <a href="#solutions">Solutions</a>
+      </nav>
+    </header>
+
+    <section class="card hero" id="top">
+      <div>
+        <h2 id="essay">Pollution: A Growing Threat to Our Planet</h2>
+        <p class="meta">By <strong>Your Name</strong> • Updated: <time datetime="2025-08-10">August 10, 2025</time></p>
+
+        <article>
+          <p>This essay explores the causes and effects of pollution and suggests practical steps individuals and communities can take to reduce pollution. Pollution is the introduction of harmful substances or products into the environment, which degrades air, water and land quality and harms living organisms.</p>
+
+          <h3 id="causes">Causes of Pollution</h3>
+          <div class="two-col">
+            <div>
+              <p>Pollution has many sources. The most common causes include:</p>
+              <ul>
+                <li><strong>Industrial activity:</strong> Factories release gases and wastewater that contain toxic chemicals.</li>
+                <li><strong>Vehicle emissions:</strong> Burning fossil fuels in cars, trucks and buses produces large amounts of carbon monoxide, nitrogen oxides and particulate matter.</li>
+                <li><strong>Waste disposal:</strong> Improper dumping of garbage and plastics causes land and marine pollution.</li>
+                <li><strong>Agricultural practices:</strong> Excessive use of fertilizers and pesticides contaminates soil and waterways.</li>
+                <li><strong>Deforestation and urbanization:</strong> Removing trees and expanding cities increases erosion, runoff and air pollution.</li>
+              </ul>
+            </div>
+            <aside class="card muted">
+              <h4>Quick fact</h4>
+              <p class="muted">Air pollution contributes to millions of premature deaths globally each year and is also a major driver of climate change.</p>
+            </aside>
+          </div>
+
+          <h3 id="effects">Effects of Pollution</h3>
+          <p>Pollution affects the environment and human health in many ways:</p>
+          <ul>
+            <li><strong>Health problems:</strong> Respiratory illnesses, heart disease, and cancer are linked to polluted air and water.</li>
+            <li><strong>Environmental damage:</strong> Ecosystems become unbalanced — coral reefs bleach, forests decline and species go extinct.</li>
+            <li><strong>Economic costs:</strong> Healthcare expenses rise, agricultural yields drop, and tourism suffers.</li>
+            <li><strong>Climate impacts:</strong> Greenhouse gases from pollution trap heat and change global climate patterns.</li>
+          </ul>
+
+          <h3 id="solutions">Solutions and What You Can Do</h3>
+          <p>Solving pollution requires action at every level — from governments and industries to individuals. Key solutions include:</p>
+          <ul>
+            <li><strong>Use clean energy:</strong> Shift to renewable sources like solar, wind and hydroelectric power.</li>
+            <li><strong>Reduce, reuse, recycle:</strong> Minimize waste and choose sustainable products.</li>
+            <li><strong>Choose public transport and ride-share:</strong> Lower the number of vehicles on roads to cut emissions.</li>
+            <li><strong>Support green policies:</strong> Vote for and encourage policies that limit emissions and promote conservation.</li>
+            <li><strong>Plant trees and protect habitats:</strong> Trees absorb carbon dioxide and help restore ecosystems.</li>
+            <li><strong>Responsible farming:</strong> Use sustainable agriculture techniques and limit chemical runoff.</li>
+          </ul>
+
+          <div class="suggestions">
+            <strong>Practical tips:</strong>
+            <ul>
+              <li>Carry a reusable water bottle and shopping bag.</li>
+              <li>Reduce meat consumption — livestock farming is a large source of greenhouse gases.</li>
+              <li>Participate in local clean-ups and awareness drives.</li>
+            </ul>
+          </div>
+
+          <h3>Conclusion</h3>
+          <p>Pollution is a complex problem that affects every living thing on Earth. While large-scale change depends on policy and industry, individual actions add up. By choosing sustainable habits and supporting clean policies, we can reduce pollution and protect the planet for future generations.</p>
+        </article>
+
+        <p style="margin-top:18px"><a class="btn" href="#solutions">Read Solutions</a></p>
+      </div>
+
+      <aside class="card">
+        <h4>Essay at a glance</h4>
+        <p class="muted">Short summary and navigation.</p>
+        <ol>
+          <li><a href="#causes">Causes of Pollution</a></li>
+          <li><a href="#effects">Effects of Pollution</a></li>
+          <li><a href="#solutions">Solutions</a></li>
+        </ol>
+        <h4>Share</h4>
+        <p class="muted">Copy and share this page or print it for classwork.</p>
+        <p><a class="btn" href="javascript:window.print()">Print / Save PDF</a></p>
+      </aside>
+    </section>
+
+    <footer>
+      <p>Created for study — feel free to edit the content and add your name. © <time datetime="2025">2025</time></p>
+    </footer>
+  </div>
+</body>
+</html>
